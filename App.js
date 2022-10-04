@@ -104,7 +104,7 @@ export default function App() {
           <FlatList
             style={styles.text}
             data={list}
-            renderItem={({ item, index }) => {
+            renderItem={({ item }) => {
               return (
                 <View style={styles.row}>
                   <Text style={styles.text}>
